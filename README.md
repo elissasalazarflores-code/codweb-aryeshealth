@@ -29,3 +29,15 @@ Cómo trabajamos · Clientes · Alianza estratégica · Contacto.
 El formulario de contacto abre el cliente de correo con la solicitud dirigida a
 `admin@aryesht.com`. Para envío directo desde el sitio, conectarlo a un servicio
 de formularios (Formspree, Netlify Forms, etc.) o a un backend.
+
+## Tema de WordPress
+
+`wordpress/aryes-health.zip` es el tema instalable (Apariencia → Temas → Añadir nuevo →
+Subir tema). El código fuente está en `wordpress/aryes-health/` y las instrucciones de uso
+en `wordpress/aryes-health/readme.txt`.
+
+Para regenerar el .zip tras cambiar el tema:
+
+```bash
+cd wordpress && rm -f aryes-health.zip && zip -qr aryes-health.zip aryes-health
+```
