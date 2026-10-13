@@ -34,7 +34,7 @@ if ( is_search() ) {
 								if ( has_post_thumbnail() ) {
 									the_post_thumbnail( 'medium_large' );
 								} else {
-									echo '<img src="' . esc_url( aryes_img( 'purpose_image' ) ) . '" alt="" loading="lazy">';
+									echo '<img src="' . esc_url( aryes_img( 'alliance_image' ) ) . '" alt="" loading="lazy">';
 								}
 								?>
 							</a>

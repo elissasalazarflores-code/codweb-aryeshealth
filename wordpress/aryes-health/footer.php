@@ -17,7 +17,22 @@ $email = aryes_mod( 'contact_email' );
 	</div>
 	<div class="container footer__bottom">
 		<span>© <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( aryes_mod( 'company_name' ) ); ?><?php echo aryes_mod( 'contact_rfc' ) ? ' · RFC ' . esc_html( aryes_mod( 'contact_rfc' ) ) : ''; ?></span>
-		<span><?php echo esc_html( aryes_mod( 'contact_city' ) ); ?><?php if ( $email ) : ?> · <a href="mailto:<?php echo esc_attr( antispambot( $email ) ); ?>"><?php echo esc_html( antispambot( $email ) ); ?></a><?php endif; ?></span>
+		<span>
+			<?php
+			$parts = array();
+			$web   = aryes_mod( 'contact_web' );
+			if ( aryes_mod( 'contact_city' ) ) {
+				$parts[] = esc_html( aryes_mod( 'contact_city' ) );
+			}
+			if ( $web ) {
+				$parts[] = '<a href="' . esc_url( preg_match( '#^https?://#i', $web ) ? $web : 'https://' . $web ) . '">' . esc_html( preg_replace( '#^https?://#i', '', $web ) ) . '</a>';
+			}
+			if ( $email ) {
+				$parts[] = '<a href="mailto:' . esc_attr( antispambot( $email ) ) . '">' . esc_html( antispambot( $email ) ) . '</a>';
+			}
+			echo implode( ' · ', $parts ); // phpcs:ignore WordPress.Security.EscapeOutput -- cada parte se escapó arriba.
+			?>
+		</span>
 	</div>
 </footer>
 

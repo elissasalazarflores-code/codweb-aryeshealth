@@ -3,10 +3,10 @@
  * Contenido predeterminado y utilidades.
  *
  * Los textos marcados como editables se cambian en Apariencia → Personalizar → Aryes Health.
- * Las listas (especialidades, valores, clientes, aliados…) se editan en este archivo.
+ * Las listas (etapas, pilares, equipamientos, clientes…) se editan en este archivo.
  *
  * En los títulos, el texto entre asteriscos se muestra en cursiva destacada:
- * "Tecnología que vela por el *paciente crítico*."
+ * "Integración hospitalaria *llave en mano*."
  *
  * @package Aryes_Health
  */
@@ -21,76 +21,65 @@ if ( ! defined( 'ABSPATH' ) ) {
 function aryes_defaults() {
 	return array(
 		// Portada.
-		'hero_eyebrow'     => 'Tecnología médica para áreas críticas · México',
-		'hero_title'       => 'Tecnología que vela por el *paciente crítico*.',
-		'hero_lead'        => 'Equipamos su área crítica con anestesia, ventilación y monitoreo confiables. Instalamos, capacitamos y damos mantenimiento.',
-		'hero_btn1'        => 'Ver equipos',
+		'hero_eyebrow'     => 'Aryes Health Technologies SA de CV',
+		'hero_title'       => 'Integración hospitalaria *llave en mano*.',
+		'hero_lead'        => 'Diseñamos, construimos, equipamos y ponemos en marcha la infraestructura de hospitales y clínicas, con un solo responsable de principio a fin.',
+		'hero_btn1'        => 'Conocer el modelo',
 		'hero_btn2'        => 'Hablar con un especialista',
-		'hero_card1_tag'   => 'Anestesia',
-		'hero_card1_title' => 'Compatible con Resonancia Magnética',
-		'hero_card1_text'  => 'Máquinas para quirófano y entornos de alta exigencia.',
-		'hero_card2_tag'   => 'Monitoreo',
-		'hero_card2_num'   => '60',
-		'hero_card2_unit'  => 'm',
-		'hero_card2_text'  => 'Profundidad en cámaras hiperbáricas.',
+		'hero_card1_tag'   => 'Llave en mano',
+		'hero_card1_title' => 'Un solo responsable',
+		'hero_card1_text'  => 'Del diseño a la puesta en marcha de su hospital o clínica.',
+		'hero_card2_tag'   => 'Proyecto integral',
+		'hero_card2_num'   => '5',
+		'hero_card2_unit'  => 'etapas',
+		'hero_card2_text'  => 'Diseñar, construir, equipar, poner en marcha y certificar.',
 		'hero_image'       => '',
 
 		// Quiénes somos.
-		'about_title'      => 'Experiencia concentrada donde la vida depende de *cada segundo*.',
-		'about_lead'       => 'Aryes Health concentra su experiencia en el soporte vital respiratorio y la vigilancia constante de los signos del paciente. Anestesia, ventilación mecánica y monitoreo son nuestro centro. Desde ahí acompañamos al equipo clínico con tecnología confiable, instalación y mantenimiento.',
-		'about_text'       => 'Nos centramos en proyectos que mejoran la eficiencia operativa de los centros de salud. Junto a nuestros clientes enfrentamos el reto de modernizar sus instalaciones y servicios con tecnologías de vanguardia, procedimientos probados y protocolos clínicos actualizados.',
-		'about_badge'      => 'De la instalación al mantenimiento',
+		'about_title'      => 'Proyectos que mejoran la *eficiencia operativa* de un centro de salud.',
+		'about_lead'       => 'En Aryes Health nos centramos en los proyectos con la finalidad de mejorar la eficiencia operativa de un centro de salud. Hacemos frente, junto a nuestros clientes, al reto de modernizar sus instalaciones y servicios, proporcionando tecnologías vanguardistas, procedimientos probados y protocolos clínicos actualizados.',
+		'about_badge'      => 'Integración hospitalaria llave en mano',
 		'about_image'      => '',
 
-		// Propósito.
-		'purpose_eyebrow'  => 'Por qué existimos',
-		'purpose_quote'    => 'Cuidar cada respiración y cada latido como si fuera el de los nuestros.',
-		'purpose_text'     => 'Detrás de cada máquina de anestesia, cada ventilador y cada monitor hay una persona que confía su momento más frágil a la tecnología que entregamos. Ese es el peso que asumimos.',
-		'purpose_image'    => '',
-
-		// Especialidades.
-		'specs_title'      => 'Tres líneas críticas. *Una sola responsabilidad.*',
-		'specs_aside'      => 'El respiratorio y el monitoreo son nuestra especialidad y nuestra carta de presentación.',
-
-		// Equipos.
-		'equip_title'      => 'Innovador, de última tecnología *y accesible.*',
-		'equip_aside'      => 'Estamos comprometidos con el cuidado de la salud de las personas y de los pacientes. Cada equipo se entrega instalado, con capacitación y respaldo técnico.',
-
 		// Misión y visión.
-		'mv_title'         => 'Para que cada equipo opere con la *precisión* que la vida exige.',
-		'mision'           => 'Garantizar a las instituciones de salud el acceso a tecnología de anestesia, ventilación y monitoreo confiable, acompañándolas desde la instalación hasta el mantenimiento, para que cada equipo opere con la precisión que la vida del paciente exige.',
-		'vision'           => 'Ser la marca de referencia en soporte vital respiratorio y monitoreo del paciente crítico en México, reconocida porque, donde está Aryes Health, el equipo clínico trabaja con tranquilidad y confianza absoluta.',
+		'mv_title'         => 'Para que cada área opere con la *precisión* que la vida del paciente exige.',
+		'mision'           => 'Garantizar a las instituciones de salud el acceso a infraestructura y tecnología médica confiable, acompañándolas desde el diseño y la instalación hasta el mantenimiento, para que cada área opere con la precisión que la vida del paciente exige.',
+		'vision'           => 'Ser la marca de referencia en integración hospitalaria en México, reconocida porque, donde está Aryes Health, el equipo clínico trabaja con tranquilidad y confianza absoluta.',
 		'mv_image'         => '',
 
-		// Valores.
-		'values_title'     => 'Lo crítico no admite *improvisación.*',
-		'values_aside'     => 'Los principios que ordenan cada decisión y cada conversación con nuestros clientes.',
+		// Proyectos llave en mano.
+		'turnkey_eyebrow'  => 'Integración hospitalaria',
+		'turnkey_title'    => 'Proyectos *llave en mano*.',
+		'turnkey_text'     => 'Un proyecto de integración hospitalaria llave en mano es una solución integral en la que un solo proveedor o contratista asume la responsabilidad total de *diseñar, construir, equipar, poner en marcha* y, en muchos casos, *gestionar o certificar* la infraestructura de un hospital o clínica.',
 
-		// Servicio.
-		'service_title'    => 'Un aliado, no un *proveedor distante*.',
-		'service_text'     => 'Al trabajar con gobiernos buscamos mejorar la atención primaria y facilitar el acceso a cuidados preventivos y críticos, empoderando a los actores clave. Contamos con un equipo de gestores e ingenieros experimentados en tecnología médica y servicios clínicos, apoyados por una red internacional de asesores.',
-		'service_image'    => '',
+		// Compromiso.
+		'commit_title'     => 'Servicios completos, *desde la instalación hasta el mantenimiento*.',
+		'commit_lead'      => 'Al trabajar con gobiernos, buscamos mejorar la atención primaria para facilitar el acceso a cuidados preventivos y críticos. Nuestra estrategia se basa en empoderar a actores clave.',
+		'commit_text'      => 'Contamos con un equipo de gestores e ingenieros experimentados en tecnología médica y servicios clínicos, apoyados por una red internacional de asesores. En Aryes Health ofrecemos servicios completos, desde instalación hasta mantenimiento, como parte de nuestro compromiso con el cliente.',
+		'supply_title'     => 'Otros equipamientos que suministramos',
 
-		// Clientes y alianzas.
-		'clients_title'    => 'Presentes en el sector *público y privado.*',
-		'clients_aside'    => 'Atendemos instituciones gubernamentales y privadas con soluciones tecnológicas y servicios adaptados a sus necesidades, garantizando acceso a equipos médicos de alta calidad y optimizando su operación.',
-		'partners_title'   => 'Marcas líderes en *tecnología médica.*',
-		'partners_text'    => 'Comprometidos con la excelencia y la innovación, establecemos alianzas con fabricantes de referencia para ofrecer lo mejor en equipos médicos de diversas especialidades.',
+		// Clientes.
+		'clients_title'    => 'Presentes en el sector *privado y público.*',
+		'clients_aside'    => 'Atendemos a instituciones gubernamentales y privadas, ofreciendo soluciones tecnológicas y servicios adaptados a sus necesidades. Nos enfocamos en garantizar acceso a equipos médicos de alta calidad, optimizando su operación en el sector salud.',
+
+		// Alianza estratégica.
+		'alliance_text'    => 'Comprometidos con la excelencia y la innovación, establecemos alianzas con *marcas líderes en tecnología médica* para ofrecerte lo mejor en equipos médicos de diversas especialidades.',
+		'alliance_image'   => '',
 
 		// Contacto.
-		'contact_title'    => 'Cuando la vida del paciente depende de un equipo, ese equipo *no puede fallar*.',
-		'contact_text'     => 'Cuéntenos sobre su área crítica. Un especialista de Aryes Health le contactará para proponer la solución adecuada.',
-		'contact_email'    => 'admin@aryesht.com',
+		'contact_title'    => 'Conversemos sobre su *proyecto*.',
+		'contact_text'     => 'Cuéntenos sobre su hospital o clínica. Un especialista de Aryes Health le contactará para proponer la solución adecuada.',
+		'contact_email'    => '',
 		'contact_phone'    => '',
-		'contact_web'      => 'aryesht.com',
-		'contact_city'     => 'Ciudad de México',
+		'contact_web'      => 'www.aryesht.com',
+		'contact_city'     => '',
 		'contact_rfc'      => 'ATE0304018J3',
 		'company_name'     => 'Aryes Health Technologies SA de CV',
-		'form_recipient'   => '',
-		'tagline'          => 'Tecnología que vela por el paciente crítico.',
+		'form_recipient'   => 'admin@aryesht.com',
+		'tagline'          => 'Integración hospitalaria llave en mano.',
 
 		// SEO.
-		'seo_description'  => 'Aryes Health Technologies equipa áreas críticas con máquinas de anestesia, ventiladores mecánicos y monitores de signos vitales confiables. Instalación, capacitación y mantenimiento en México.',
+		'seo_description'  => 'Aryes Health Technologies desarrolla proyectos de integración hospitalaria llave en mano: diseñamos, construimos, equipamos, ponemos en marcha y certificamos la infraestructura de hospitales y clínicas en México.',
 	);
 }
 
@@ -99,11 +88,10 @@ function aryes_defaults() {
  */
 function aryes_default_images() {
 	return array(
-		'hero_image'    => 'prisma.webp',
-		'about_image'   => 'quirofano.webp',
-		'purpose_image' => 'cristal.webp',
-		'mv_image'      => 'especialista.webp',
-		'service_image' => 'sala.webp',
+		'hero_image'     => 'prisma.webp',
+		'about_image'    => 'especialista.webp',
+		'mv_image'       => 'quirofano.webp',
+		'alliance_image' => 'alianza.webp',
 	);
 }
 
@@ -117,7 +105,7 @@ function aryes_mod( $key ) {
 	$defaults = aryes_defaults();
 	$default  = isset( $defaults[ $key ] ) ? $defaults[ $key ] : '';
 	$value    = get_theme_mod( 'aryes_' . $key, $default );
-	return ( '' === $value || null === $value ) ? $default : $value;
+	return ( null === $value ) ? $default : $value;
 }
 
 /**
@@ -186,176 +174,78 @@ function aryes_form_recipient() {
  * ----------------------------------------------------------------------- */
 
 /**
- * Franja inferior de la portada.
+ * Etapas del proyecto llave en mano (también se muestran en la franja de la portada).
+ * Iconos disponibles: disenar, construir, equipar, marcha, certificar.
  */
-function aryes_hero_strip() {
+function aryes_stages() {
 	return apply_filters(
-		'aryes_hero_strip',
-		array( 'Anestesia', 'Terapia respiratoria', 'Monitoreo', 'Instalación y mantenimiento' )
-	);
-}
-
-/**
- * Especialidades. 'tab' enlaza con la pestaña de equipos correspondiente.
- */
-function aryes_specialties() {
-	return apply_filters(
-		'aryes_specialties',
+		'aryes_stages',
 		array(
-			array(
-				'icon'  => 'anestesia',
-				'title' => 'Anestesia',
-				'text'  => 'Máquinas de anestesia y soluciones para quirófano, compatibles con entornos de alta exigencia, incluida la Resonancia Magnética.',
-				'tab'   => 'anestesia',
-			),
-			array(
-				'icon'  => 'respiratoria',
-				'title' => 'Terapia respiratoria',
-				'text'  => 'Ventiladores mecánicos pulmonares de última generación para el cuidado del paciente crítico, del neonato al adulto.',
-				'tab'   => 'ventilacion',
-			),
-			array(
-				'icon'  => 'monitoreo',
-				'title' => 'Monitoreo',
-				'text'  => 'Monitores de signos vitales fiables e intuitivos para vigilancia continua. Su equipo los domina desde el primer turno.',
-				'tab'   => 'monitoreo',
-			),
+			array( 'Diseñar', 'disenar' ),
+			array( 'Construir', 'construir' ),
+			array( 'Equipar', 'equipar' ),
+			array( 'Poner en marcha', 'marcha' ),
+			array( 'Gestionar y certificar', 'certificar' ),
 		)
 	);
 }
 
 /**
- * Tarjeta "Sin cerrar puertas".
+ * Pilares de Quiénes somos.
  */
-function aryes_open_doors() {
+function aryes_pillars() {
 	return apply_filters(
-		'aryes_open_doors',
-		array(
-			'title' => 'Sin cerrar puertas',
-			'text'  => 'Cuando un proyecto integral lo exige, sumamos equipamiento y servicios complementarios para resolver de extremo a extremo.',
-			'items' => array( 'Rehabilitación', 'Laboratorio', 'Oncología', 'Quirófanos' ),
-		)
+		'aryes_pillars',
+		array( 'Tecnologías vanguardistas', 'Procedimientos probados', 'Protocolos clínicos actualizados' )
 	);
 }
 
 /**
- * Líneas de equipo (pestañas). El 'slug' coincide con la taxonomía "Línea".
+ * Otros equipamientos que suministramos.
  */
-function aryes_lines() {
+function aryes_supply() {
 	return apply_filters(
-		'aryes_lines',
-		array(
-			'anestesia'   => array(
-				'tab'    => 'Máquinas de anestesia',
-				'title'  => 'Máquinas de *anestesia*',
-				'text'   => 'Prestamos especial atención al sector de la anestesia, con una amplia gama de productos tecnológicamente avanzados, compatibles y adecuados para su uso en Resonancia Magnética.',
-				'points' => array( 'Compatibles con entornos de Resonancia Magnética', 'Diseñadas para quirófanos de alta exigencia', 'Instalación, capacitación y mantenimiento' ),
-			),
-			'monitoreo'   => array(
-				'tab'    => 'Monitores de signos vitales',
-				'title'  => 'Monitores de *signos vitales*',
-				'text'   => 'Para nuestra línea de monitoreo ofrecemos soluciones compatibles incluso con cámaras hiperbáricas a profundidades de hasta 60 metros. Monitoreo claro e intuitivo: su equipo lo domina desde el primer turno.',
-				'points' => array( 'Compatibles con cámaras hiperbáricas hasta 60 m', 'Interfaz clara e intuitiva para todo operador', 'Opciones de monitoreo central' ),
-			),
-			'ventilacion' => array(
-				'tab'    => 'Ventiladores',
-				'title'  => 'Ventiladores · *terapia respiratoria*',
-				'text'   => 'En el cuidado respiratorio ofrecemos productos de última generación que mejoran significativamente la calidad de vida de los pacientes, del paciente crítico al neonatal.',
-				'points' => array( 'Ventilación para paciente crítico', 'Opciones para paciente neonatal', 'Equipos compactos y portátiles' ),
-			),
-		)
+		'aryes_supply',
+		array( 'Rehabilitación', 'Laboratorio', 'Oncología', 'Quirófanos' )
 	);
 }
 
 /**
- * Equipos incluidos en el tema. Se muestran mientras no se haya
- * publicado ningún equipo en el panel (Equipos → Añadir nuevo).
+ * Opciones de "Área de interés" en el formulario.
  */
-function aryes_default_products() {
+function aryes_interest_options() {
 	return apply_filters(
-		'aryes_default_products',
-		array(
-			'anestesia'   => array(
-				array( 'Morpheus M', 'Anestesia', 'morpheus-m.webp' ),
-				array( 'Morpheus LT/MRI', 'Anestesia · RM', 'morpheus-lt-mri.webp' ),
-				array( 'Morpheus ND', 'Anestesia', 'morpheus-nd.webp' ),
-			),
-			'monitoreo'   => array(
-				array( 'Neptune 12', 'Monitoreo', 'neptune-12.webp' ),
-				array( 'Neptune D16', 'Central', 'neptune-d16.webp' ),
-				array( 'Neptune 12 HBOT', 'Hiperbárico', 'neptune-12-hbot.webp' ),
-			),
-			'ventilacion' => array(
-				array( 'Aria 150', 'Ventilador', 'aria-150.webp' ),
-				array( 'Aria 104', 'Ventilador', 'aria-104.webp' ),
-				array( 'Sirio Baby 200', 'Neonatal', 'sirio-baby-200.webp' ),
-				array( 'Sirio S2/T Spiro', 'Ventilador', 'sirio-s2t-spiro.webp' ),
-			),
-		)
+		'aryes_interest_options',
+		array_merge( array( 'Proyecto llave en mano' ), aryes_supply() )
 	);
 }
 
 /**
- * Valores.
- */
-function aryes_values() {
-	return apply_filters(
-		'aryes_values',
-		array(
-			array( 'Confiabilidad', 'Respondemos con equipos probados y soporte que no falla.' ),
-			array( 'Excelencia', 'Calidad sin concesiones, en el producto y en cada punto de contacto del servicio.' ),
-			array( 'Innovación', 'Tecnología de vanguardia, accesible y pensada para el operador real.' ),
-			array( 'Confianza', 'Relaciones de largo plazo construidas sobre transparencia y cumplimiento.' ),
-			array( 'Acompañamiento', 'Estamos presentes desde la instalación hasta el último mantenimiento.' ),
-			array( 'Integridad', 'Hacemos lo correcto, también cuando nadie está mirando.' ),
-		)
-	);
-}
-
-/**
- * Pasos del servicio.
- */
-function aryes_steps() {
-	return apply_filters(
-		'aryes_steps',
-		array(
-			array( 'Proyecto', 'Analizamos el área crítica y definimos la solución que la operación del centro de salud necesita.' ),
-			array( 'Suministro', 'Equipos de marcas líderes en tecnología médica, con procedimientos probados.' ),
-			array( 'Instalación', 'Puesta en marcha a cargo de ingenieros especializados, conforme a protocolos clínicos actualizados.' ),
-			array( 'Capacitación', 'Formamos al personal para que domine cada equipo desde el primer turno.' ),
-			array( 'Mantenimiento', 'Respaldo técnico continuo para que el soporte vital nunca se detenga.' ),
-		)
-	);
-}
-
-/**
- * Clientes. Cada elemento: array( nombre, descripción opcional ).
+ * Clientes. Cada elemento: array( nombre, archivo del logo en assets/img/clientes ).
+ * Si el archivo se deja vacío se muestra el nombre en texto.
  */
 function aryes_clients() {
 	return apply_filters(
 		'aryes_clients',
 		array(
-			'publico' => array(
-				array( 'SEDENA', 'Secretaría de la Defensa Nacional' ),
-				array( 'SALUD', 'Secretaría de Salud' ),
-				array( 'SEMAR', 'Secretaría de Marina' ),
-				array( 'ISSSTE', 'Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado' ),
-				array( 'IMSS', 'Instituto Mexicano del Seguro Social' ),
-				array( 'IMSS-Bienestar', 'Servicios de salud' ),
-				array( 'Hospital General de México', 'Dr. Eduardo Liceaga' ),
-				array( 'Servicios de Salud', 'Morelos' ),
-			),
 			'privado' => array(
-				array( 'Hospital Angeles', '' ),
-				array( 'Star Médica', 'Hospitales' ),
-				array( 'MAC', 'Hospitales' ),
-				array( 'Hospitium', 'Solutions' ),
-				array( 'Santek Health', '' ),
-				array( 'SEE', '' ),
-				array( 'Rook', '' ),
-				array( 'RookMotion', '' ),
-				array( 'Avalia', 'Aliado empresarial' ),
-				array( 'Aryes Textil', '' ),
+				array( 'Avalia', 'avalia.webp' ),
+				array( 'SEE', 'see.webp' ),
+				array( 'RookMotion', 'rookmotion.webp' ),
+				array( 'Santek Health', 'santek-health.webp' ),
+				array( 'Hospital Angeles', 'hospital-angeles.webp' ),
+				array( 'Hospitales Star Médica', 'star-medica.webp' ),
+				array( 'Hospitales MAC', 'hospitales-mac.webp' ),
+			),
+			'publico' => array(
+				array( 'IMSS', 'imss.webp' ),
+				array( 'IMSS-Bienestar', 'imss-bienestar.webp' ),
+				array( 'ISSSTE', 'issste.webp' ),
+				array( 'Secretaría de Salud', 'salud.webp' ),
+				array( 'SEDENA, Secretaría de la Defensa Nacional', 'sedena.webp' ),
+				array( 'SEMAR, Secretaría de Marina', 'semar.webp' ),
+				array( 'Hospital General de México Dr. Eduardo Liceaga', 'hospital-general-mexico.webp' ),
+				array( 'Servicios de Salud de Morelos', 'salud-morelos.webp' ),
 			),
 		)
 	);
@@ -367,37 +257,24 @@ function aryes_clients() {
 function aryes_marquee() {
 	return apply_filters(
 		'aryes_marquee',
-		array( 'SEDENA', 'Secretaría de Salud', 'SEMAR', 'ISSSTE', 'IMSS', 'IMSS-Bienestar', 'Hospital General de México', 'Servicios de Salud de Morelos', 'Hospital Angeles', 'Hospitales Star Médica', 'Hospitales MAC', 'Hospitium Solutions' )
+		array( 'IMSS', 'IMSS-Bienestar', 'ISSSTE', 'Secretaría de Salud', 'SEDENA', 'SEMAR', 'Hospital General de México', 'Servicios de Salud de Morelos', 'Hospital Angeles', 'Hospitales Star Médica', 'Hospitales MAC', 'Santek Health', 'Avalia', 'SEE', 'RookMotion' )
 	);
 }
 
 /**
- * Alianzas estratégicas.
- */
-function aryes_partners() {
-	return apply_filters(
-		'aryes_partners',
-		array(
-			array( 'SIARE', 'Anestesia · Ventilación · Monitoreo' ),
-			array( 'Alma Imaging', 'Rayos X' ),
-			array( 'Gentherm', 'Gestión de temperatura del paciente' ),
-			array( 'Miniva Med-Tech', 'Med-Tech' ),
-		)
-	);
-}
-
-/**
- * Iconos SVG de las especialidades.
+ * Iconos SVG de las etapas.
  *
  * @param string $name Nombre del icono.
  * @return string SVG.
  */
 function aryes_icon( $name ) {
 	$icons = array(
-		'anestesia'    => '<rect x="12" y="6" width="24" height="18" rx="3"/><path d="M16 15h4l2-4 3 8 2-4h5"/><path d="M14 24v14M34 24v14M10 38h28"/><circle cx="18" cy="42" r="2"/><circle cx="30" cy="42" r="2"/>',
-		'respiratoria' => '<path d="M24 6v14"/><path d="M24 20c-4-2-10 0-12 8-1.5 6-1 12 3 12 5 0 6-5 6-10"/><path d="M24 20c4-2 10 0 12 8 1.5 6 1 12-3 12-5 0-6-5-6-10"/>',
-		'monitoreo'    => '<rect x="6" y="8" width="36" height="26" rx="3"/><path d="M10 22h8l3-7 4 13 3-6h10"/><path d="M18 40h12M24 34v6"/>',
+		'disenar'    => '<path d="M8 40 40 8"/><path d="M8 40h32V8"/><path d="M14 40v-4M20 40v-6M26 40v-4M32 40v-6M40 34h-4M40 28h-6M40 22h-4M40 16h-6"/>',
+		'construir'  => '<path d="M6 42h36"/><path d="M10 42V18l14-10 14 10v24"/><path d="M19 42V30h10v12"/><path d="M24 18v4M22 20h4"/>',
+		'equipar'    => '<rect x="6" y="8" width="36" height="24" rx="3"/><path d="M10 21h7l3-6 4 12 3-6h11"/><path d="M18 40h12M24 32v8"/>',
+		'marcha'     => '<circle cx="24" cy="24" r="17"/><path d="M24 7v6M24 35v6M7 24h6M35 24h6"/><path d="m20 18 10 6-10 6z"/>',
+		'certificar' => '<path d="M24 5 9 11v11c0 10 6.5 17 15 21 8.5-4 15-11 15-21V11z"/><path d="m17 24 5 5 9-10"/>',
 	);
-	$path = isset( $icons[ $name ] ) ? $icons[ $name ] : $icons['monitoreo'];
+	$path = isset( $icons[ $name ] ) ? $icons[ $name ] : $icons['certificar'];
 	return '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">' . $path . '</svg>';
 }

@@ -17,14 +17,15 @@ python3 -m http.server 8000
 index.html            Página principal
 assets/css/styles.css Estilos (paleta, tipografía, layout, responsive)
 assets/js/main.js     Navegación, animaciones, pestañas de equipos y formulario
-assets/img/           Fotografías, fondos y equipos
+assets/img/           Fotografías, fondos y logos de clientes
 ```
 
 ## Secciones
 
-Inicio · Marquesina de instituciones · Quiénes somos · Propósito · Especialidades ·
-Equipamiento (anestesia, monitoreo, ventilación) · Misión y visión · Valores ·
-Cómo trabajamos · Clientes · Alianza estratégica · Contacto.
+Inicio · Marquesina de instituciones · Quiénes somos · Misión y visión ·
+Proyectos llave en mano · Nuestro compromiso · Clientes · Alianza estratégica · Contacto.
+
+Contenido basado en el CV Empresarial 2026 de Aryes Health Technologies.
 
 El formulario de contacto abre el cliente de correo con la solicitud dirigida a
 `admin@aryesht.com`. Para envío directo desde el sitio, conectarlo a un servicio

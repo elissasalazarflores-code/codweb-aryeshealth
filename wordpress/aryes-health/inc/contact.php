@@ -67,7 +67,7 @@ function aryes_handle_contact() {
 			__( 'Institución: ', 'aryes-health' ) . ( $institucion ? $institucion : '—' ),
 			__( 'Correo: ', 'aryes-health' ) . $correo,
 			__( 'Teléfono: ', 'aryes-health' ) . ( $telefono ? $telefono : '—' ),
-			__( 'Línea de interés: ', 'aryes-health' ) . ( $lineas ? implode( ', ', $lineas ) : '—' ),
+			__( 'Área de interés: ', 'aryes-health' ) . ( $lineas ? implode( ', ', $lineas ) : '—' ),
 			'',
 			__( 'Mensaje:', 'aryes-health' ),
 			$mensaje ? $mensaje : '—',

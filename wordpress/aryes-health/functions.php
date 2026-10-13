@@ -9,13 +9,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ARYES_VERSION', '1.0.0' );
+define( 'ARYES_VERSION', '1.1.0' );
 define( 'ARYES_DIR', get_template_directory() );
 define( 'ARYES_URI', get_template_directory_uri() );
 
 require ARYES_DIR . '/inc/content.php';
 require ARYES_DIR . '/inc/customizer.php';
-require ARYES_DIR . '/inc/equipos.php';
 require ARYES_DIR . '/inc/contact.php';
 
 /**
@@ -121,11 +120,11 @@ add_filter( 'body_class', 'aryes_body_class' );
 function aryes_default_menu_items() {
 	$base = is_front_page() ? '' : home_url( '/' );
 	return array(
-		$base . '#nosotros'       => __( 'Nosotros', 'aryes-health' ),
-		$base . '#especialidades' => __( 'Especialidades', 'aryes-health' ),
-		$base . '#equipos'        => __( 'Equipos', 'aryes-health' ),
-		$base . '#servicio'       => __( 'Servicio', 'aryes-health' ),
-		$base . '#clientes'       => __( 'Clientes', 'aryes-health' ),
+		$base . '#nosotros'      => __( 'Nosotros', 'aryes-health' ),
+		$base . '#mision'        => __( 'Misión', 'aryes-health' ),
+		$base . '#llave-en-mano' => __( 'Llave en mano', 'aryes-health' ),
+		$base . '#compromiso'    => __( 'Compromiso', 'aryes-health' ),
+		$base . '#clientes'      => __( 'Clientes', 'aryes-health' ),
 	);
 }
 

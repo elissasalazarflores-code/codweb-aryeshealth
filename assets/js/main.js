@@ -158,7 +158,7 @@
         'Institución: ' + form.institucion.value.trim(),
         'Correo: ' + correo,
         'Teléfono: ' + form.telefono.value.trim(),
-        'Línea de interés: ' + (lineas.join(', ') || '—'),
+        'Área de interés: ' + (lineas.join(', ') || '—'),
         '',
         form.mensaje.value.trim()
       ].join('\n');
